@@ -1,4 +1,4 @@
-# ⏱️ Timer que Dói
+# ⏱️ Code Kata Timer
 
 Este é um projeto simples de **timer** criado com **JavaScript**, **HTML** e **SCSS**, desenvolvido com base em um vídeo no YouTube.
 
