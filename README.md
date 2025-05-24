@@ -40,7 +40,7 @@ Você pode visualizar o layout utilizado neste projeto no Figma:
 ├── /css         # CSS compilado do SCSS
 ├── /scss        # Arquivos-fonte SCSS
 ├── /js          # Scripts JavaScript
-└── /assets      # (opcional) imagens, sons, ícones, etc.
+└── /assets      # imagens, sons, ícones, etc.
 ```
 
 ## 💡 Funcionalidades
