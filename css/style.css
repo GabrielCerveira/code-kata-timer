@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  background-color: #242424;
+  color: #46ffbe;
+}
+
+.animate-bg {
+  animation: changeBackground 2s steps(1, end) infinite;
+}
+.main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.main__timer {
+  display: flex;
+  font-size: 112px;
+}
+
+.timer__number--large {
+  font-size: 202px;
+}
+
+.main__btns {
+  display: flex;
+  gap: 32px;
+  margin-top: 52px;
+  justify-content: center;
+}
+
+.main__btns--border {
+  display: flex;
+  padding: 4.5px;
+  border-radius: 50%;
+  border: solid #444444 1px;
+}
+
+.main__btns--border:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-color: #242424;
+    color: #46ffbe;
+  }
+  50% {
+    background-color: #46ffbe;
+    color: #242424;
+  }
+  100% {
+    background-color: #242424;
+    color: #46ffbe;
+  }
+}
